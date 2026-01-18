@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+sqlalchemy
+databases
+alembic
+passlib[bcrypt]
+python-jose[cryptography]
+pytest
+httpx
+imagekitio
+fastapi-Users[sqlalchemy]
+aiosqlite
+streamlit
