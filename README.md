@@ -6,8 +6,7 @@ Mediafeed is a lightweight **Instagram‑style REST API** built with **FastAPI**
 
 ## 🚀 Features
 - 👤 **User Accounts**: registration, login, JWT authentication
-- 🖼️ **Posts & Feeds**: create posts with captions, fetch personalized feeds
-- 💬 **Interactions**: likes, comments, and social engagement endpoints
+- 🖼️ **Posts & Feeds**: create posts with captions, fetch feeds
 - 🔒 **Secure Authentication**: password hashing & token management
 - 📑 **Interactive API Docs**: auto‑generated with Swagger UI & ReDoc
 - 🗄️ **Database Integration**: SQLAlchemy/SQLModel for persistence
@@ -32,6 +31,34 @@ mediafeed/
 
 ```
 
+
+## Getting Started
+
+### Prerequisites
+- Check the requirements.txt file to know the required libraries to install.
+
+
+### Installation
+
+```bash
+git clone https://github.com/rajeshchalla10/mediafeed-fastapi
+pip install -r requirements.txt
+```
+### Running the App
+
+```bash
+python main.py
+```
+
+Open [http://localhost:5000](http://localhost:5000) (or supported port by the application).
+
+
+🛠️ Tech Stack
+• FastAPI – Web framework
+• Uvicorn – ASGI server
+• SQLAlchemy/SQLModel – ORM & database layer
+• Pydantic – Data validation
+• JWT – Authentication
 
 
 ## Contributing
